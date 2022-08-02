@@ -9,7 +9,7 @@ toc: true
 <form name="nome_do_formulario">
   <input type="text" name="name">
   <input type="email" name="email">
-  <!-- <input type="text" name="available_for_mailing"> -->
+  <input type="boolean" name="available_for_mailing">
   <input type="submit">
 </form>;
 
