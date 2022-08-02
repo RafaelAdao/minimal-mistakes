@@ -6,6 +6,13 @@ last_modified_at: 2021-06-23T08:15:34-04:00
 toc: true
 ---
 
+<form name="nome_do_formulario">
+  <input type="text" name="name">
+  <input type="email" name="email">
+  <!-- <input type="text" name="available_for_mailing"> -->
+  <input type="submit">
+</form>;
+
 If you're using the [Ruby Gem]({{ "/docs/quick-start-guide/#gem-based-method" | relative_url }}) or [remote theme]({{ "/docs/quick-start-guide/#remote-theme-method" | relative_url }}) versions of Minimal Mistakes, upgrading is fairly painless.
 
 To check which version you are currently using, view the source of your built site and you should see something similar to:
