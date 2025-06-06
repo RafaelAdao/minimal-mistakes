@@ -18,6 +18,30 @@ toc: true
     <input type="email" id="email" name="email" placeholder="seu@email.com" required>
     <br>
 
+    <label for="mobile_phone">Celular:</label>
+    <input type="tel" id="mobile_phone" name="mobile_phone" placeholder="(00) 00000-0000">
+    <br>
+
+    <label for="personal_phone">Telefone pessoal:</label>
+    <input type="tel" id="personal_phone" name="personal_phone" placeholder="(00) 0000-0000">
+    <br>
+
+    <label for="phone_lead">Telefone do lead:</label>
+    <input type="tel" id="phone_lead" name="phone_lead" placeholder="(00) 0000-0000">
+    <br>
+
+    <label for="telefone_principal">Telefone Principal:</label>
+    <input type="tel" id="telefone_principal" name="Telefone Principal" placeholder="(00) 0000-0000">
+    <br>
+
+    <label for="telefone-principal">Telefone-Principal:</label>
+    <input type="tel" id="telefone-principal" name="Telefone-Principal" placeholder="(00) 0000-0000">
+    <br>
+
+    <label for="phone">Outro telefone:</label>
+    <input type="tel" id="phone" name="phone" placeholder="(00) 0000-0000">
+    <br>
+
     <label for="available_for_mailing">
       <input type="checkbox" id="available_for_mailing" name="available_for_mailing">
       Desejo receber novidades por e-mail
@@ -26,7 +50,8 @@ toc: true
 
     <input type="submit" value="Enviar">
   </fieldset>
-</form>;
+</form>
+
 
 
 If you're using the [Ruby Gem]({{ "/docs/quick-start-guide/#gem-based-method" | relative_url }}) or [remote theme]({{ "/docs/quick-start-guide/#remote-theme-method" | relative_url }}) versions of Minimal Mistakes, upgrading is fairly painless.
