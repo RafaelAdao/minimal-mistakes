@@ -7,11 +7,27 @@ toc: true
 ---
 
 <form name="nome_do_formulario">
-  <input type="text" name="name">
-  <input type="email" name="email">
-  <input type="boolean" name="available_for_mailing">
-  <input type="submit">
+  <fieldset>
+    <legend>Cadastro</legend>
+
+    <label for="name">Nome:</label>
+    <input type="text" id="name" name="name" placeholder="Seu nome" required>
+    <br>
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+    <br>
+
+    <label for="available_for_mailing">
+      <input type="checkbox" id="available_for_mailing" name="available_for_mailing">
+      Desejo receber novidades por e-mail
+    </label>
+    <br>
+
+    <input type="submit" value="Enviar">
+  </fieldset>
 </form>;
+
 
 If you're using the [Ruby Gem]({{ "/docs/quick-start-guide/#gem-based-method" | relative_url }}) or [remote theme]({{ "/docs/quick-start-guide/#remote-theme-method" | relative_url }}) versions of Minimal Mistakes, upgrading is fairly painless.
 
